@@ -1,3 +1,13 @@
+# Configuração de ambiente em Cloud
+
+1. Certifique-se de que possui instalado os seguintes programas:
+   1. NoSQLBooster: https://nosqlbooster.com/downloads
+   2. NodeJS: https://nodejs.org/en/download/
+2. Criar conta no GitHub e fazer login;
+3. Acessar o link do repositório (no caso, https://github.com/paulosalvatore/Ocean_Backend_Cloud_29_10_2020) e clicar na opção `Fork`;
+4. Criar conta no Heroku e fazer login;
+5. Criar conta no MongoDB Atlas e fazer login;
+
 # Explicação sobre Banco de Dados
 
 **SQL vs NoSQL**
