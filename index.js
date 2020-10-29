@@ -19,7 +19,7 @@ console.info('MongoDB conectado com sucesso!');
 
 const app = express();
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // Precisamos avisar o Express para utilizar o body-parser
 // Assim, ele saberá como transformar as informações no BODY da requisição
@@ -57,10 +57,10 @@ Descrição: Remove mensagem específica pelo ID
 app.get('/', function (req, res) {
   res.send('Hello World');
 });
-
-// const db = client.db('ocean_backend_27_10_2020');
-// const mensagens = db.collection('mensagens');
 /*
+const db = client.db('ocean_backend_27_10_2020');
+const mensagens = db.collection('mensagens');
+
 // Read all
 app.get('/mensagem', async function (req, res) {
     const findResult = await mensagens.find().toArray();
